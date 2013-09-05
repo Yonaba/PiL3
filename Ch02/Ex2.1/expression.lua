@@ -1,0 +1,6 @@
+local left_equality = type(nil)
+local left_equality_type = type(left_equality)
+print(('type(nil) returns a %s : "%s"')
+  :format(left_equality_type, left_equality))
+print(('A %s cannot be nil: type(nil) == nil is %s')
+  :format(left_equality_type, tostring(left_equality==nil)))
