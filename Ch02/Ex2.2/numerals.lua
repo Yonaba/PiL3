@@ -14,5 +14,5 @@ local are_they_valid_numerals = {
 }
 
 for i, numeral in ipairs(are_they_valid_numerals) do
-  -rint(('tonumber(%10s): %s'):format(numeral,tonumber(numeral)))
+  print(('tonumber(%10s): %s'):format(numeral,tonumber(numeral)))
 end
