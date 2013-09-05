@@ -1,2 +1,2 @@
 -- This is an inlined comment
-SELECT 'Hello, World!';
+SELECT 'Hello, World. From SQL.';

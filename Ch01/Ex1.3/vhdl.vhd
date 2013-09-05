@@ -6,7 +6,7 @@ architecture hello_world of hello_world is
 begin
   stimulus : PROCESS
   begin
-    assert false report "Hello World By Deepak"
+    assert false report "Hello World. From VHDL."
     severity note;
     wait;
   end PROCESS stimulus;

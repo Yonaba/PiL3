@@ -1,2 +1,2 @@
 -- This is an inlined comment
-display alert "Hello, world!"
+display alert "Hello, world. From AppleScript."
