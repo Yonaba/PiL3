@@ -1,4 +1,4 @@
-Ch03 - Ex 3.1
+Ch03 - Ex 3.2
 ============
 
 **Question**: *What is the result of the expression `2^3^4`? What about `2^-3^4`?*
