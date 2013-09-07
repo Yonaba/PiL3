@@ -3,6 +3,10 @@ Ch 01 - Ex1.3
 
 **Question**:  *Can you name other languages that use `--` for comments?*
 
+---------------------
+
+**Solution**:
+
 Making a few research on [Google](https://www.google.bf/search?q=programming+languages+comments&oq=programming+languages+comments&aqs=chrome.0.69i57j69i59j69i60j69i62l2.4971j0&sourceid=chrome&ie=UTF-8), I came accross that [Wikipedia page][1] comparing programming languages syntax.
 
 As for [blockquotes][2], [Lua](http://www.lua.org) seems to be the only one using the double hyphens style, followed by double square brackets (`--[[..]]`):

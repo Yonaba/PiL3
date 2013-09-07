@@ -4,6 +4,10 @@ Ch01 - Ex 1.2
 **Question**: *Run the `twice` example, both by loading the file with the -l
 option and with `dofile`. Which way do you prefer ?*
 
+--------------
+
+**Solution**:
+
 Loading the lib:
 
     > lua52 -l lib1
