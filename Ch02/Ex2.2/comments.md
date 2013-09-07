@@ -7,6 +7,9 @@ values?*
     .0e12 .e12   0.0e  0x12    0xABFG 0xA FFFF 0xFFFFFFFF
     0x    0x1P10 0.1e1 0x0.1p1
 
+------------------
+
+**Solution**:
 
 * `.0e12` translates as `(0.0) * (10^12) = 0`
 * `.e12` has no decimal part, thus is invalid.
