@@ -1,14 +1,14 @@
 Ch03 - Ex 3.4
 ============
 
-**Question**: *Can you write the function from the previous item ([cf. Ex3.4 - Ch03](http://github.com/Yonaba/PiL3/blob/master/Ch03/Ex3.4/polynomial.lua)) so that it uses
+**Question**: *Can you write the function from the previous item ([cf. Ex3.4 - Ch03](https://github.com/Yonaba/PiL3/blob/master/Ch03/Ex3.3/polynomial.lua)) so that it uses
 at most `n` additions and `n` multiplications (and no exponentiations)?*
 
 ------------
 
 **Solution**:
 
-In the [previous implementation](http://github.com/Yonaba/PiL3/blob/master/Ch03/Ex3.4/polynomial.lua), we had this polynomial function.
+In the [previous implementation](https://github.com/Yonaba/PiL3/blob/master/Ch03/Ex3.3/polynomial.lua), we had this polynomial function.
 
     local function polynomial(t,v)
       local r = t[1]  -- Gets a0
