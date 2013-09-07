@@ -32,7 +32,7 @@ t = {[sunday] = monday}
 print(t[sunday]) --> "sunday"
 ````
 
-* `t[t.sunday]` translates as `t["monday"]`, which corresponds to `t[sunday]` (*see previous section*). Therefore, it returns the value of variable `monday`, `"sunday"`.
+* `t[t.sunday]` translates as `t["monday"]`, which corresponds to `t[sunday]`. Therefore, it returns the value of variable `monday`, `"sunday"`.
 
 ````
 t = {sunday = "monday"}
