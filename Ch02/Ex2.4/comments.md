@@ -16,20 +16,26 @@ Lua?*
 
 * *first way*: double square brackets
 
-    local str1 = [=[<![CDATA[
-      Hello world
-    ]]>]=]
+````
+local str1 = [=[<![CDATA[
+  Hello world
+]]>]=]
+````
 
 * *second way*: single (or double) quotes, nested with `\n`
 
-    local str2 = '<![CDATA[\n  Hello world\n]]>'
+````
+local str2 = '<![CDATA[\n  Hello world\n]]>'
+````
 
 * *third way*: escape sequences (just to replace fancy characters)
 
-    local str3 = 
-     '\060\033\091CDATA\091\010\z
-     \032\032Hello\032world\z
-     \010\093\093\062'
+````
+local str3 = 
+  '\060\033\091CDATA\091\010\z
+  \032\032Hello\032world\z
+  \010\093\093\062'
+````
 
 *Note*: the third method uses sequence `\z` which was introduced in Lua 5.2.
 
