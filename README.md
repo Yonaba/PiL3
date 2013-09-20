@@ -16,3 +16,6 @@ The [reference manual for Lua 5.2](http://www.lua.org/manual/5.2/manual.html) is
 ##Final notes
 I will be updating the contents of this repository while reading the book, so basically on my spare times.
 Meanwhile, all comments, critics will be much appreciated. You can open a [ticket](https://github.com/Yonaba/PiL3/issues) or better, [pull  a request](https://github.com/Yonaba/PiL3/pulls).
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Yonaba/pil3/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
